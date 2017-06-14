@@ -87,7 +87,7 @@ h2 {
 	font-weight: bold;
 }
 
-ul {
+.skills ul {
 	border-top: 1px solid rgba(255, 255, 255, 0.5);
 	padding-top: 20px;
 	columns: 2;
@@ -128,18 +128,39 @@ ul {
 
 /*CONTACT PAGE*/
 
-.contact {
-	width: 70%;
+.connect {
+	width: 50%;
 	margin: 0 auto;
-	padding: 20px 0;
+	padding: 60px 0;
+	text-align: center;
 }
 
-.label {
-	color: white;
+.connect h1 {
+	margin-bottom: 30px;
+	font-size: 30px;
 }
 
 .submit {
 	color: rgb(0, 255, 255);
 	background-color: black;
 
+}
+
+.link-box {
+	display: flex;
+	justify-content: center;
+}
+
+.divider {
+	margin: 0 10px;
+	font-weight: bolder;
+	color: gray;
+}
+
+.connect-link {
+	margin-bottom: 20px;
+}
+
+.connect-link a {
+	color: white
 }
